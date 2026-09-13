@@ -23,15 +23,21 @@ void GameRenderer::resize(int width, int height) {
     float availW = width * 0.96f;
     float availH = std::max(20.0f, height - hudHeightPx);
 
-    // Fill both width and height exactly: width sets the scale (so columns always match the
-    // screen edge-to-edge), and the world's rendered height simply grows to fill whatever vertical
-    // space is left over, instead of preserving the original 256x176 aspect ratio.
-    float scale = availW / WORLD_W;
+    // On a tall/portrait screen (phones), width is the tight constraint: scaling to fill it edge-
+    // to-edge still leaves plenty of leftover height, which is what grows worldH_ past CLASSIC_H
+    // to reveal the cosmetic extra trailing rows (see extraRows below). On a wide/landscape screen
+    // (desktop monitors), the opposite is true - scaling by width alone would shrink the rendered
+    // height below CLASSIC_H, clipping the bottom of the classic 22-row playfield (where the player
+    // spends most of its time) instead of ever revealing extra rows. Taking whichever scale is
+    // smaller guarantees the full classic playfield always fits vertically; on wide screens this
+    // makes width the one with leftover space, letterboxed (centered) instead of stretched to fill.
+    float scale = std::min(availW / WORLD_W, availH / CLASSIC_H);
     worldH_ = availH / scale;
 
-    viewportX_ = (int)((width - availW) / 2.0f);
+    float renderedW = WORLD_W * scale;
+    viewportX_ = (int)((width - renderedW) / 2.0f);
     viewportY_ = (int)hudHeightPx;
-    viewportW_ = (int)availW;
+    viewportW_ = (int)renderedW;
     viewportH_ = (int)availH;
 
     worldCamera_.target = {0, 0};
