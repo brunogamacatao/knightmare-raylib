@@ -1,0 +1,18 @@
+build/
+build-*/
+
+# Android
+android/.gradle/
+android/.cxx/
+android/local.properties
+android/app/build/
+android/app/.cxx/
+android/**/.cxx/
+*.iml
+.idea/
+
+# iOS
+ios/build/
+
+.cache/
+compile_commands.json
