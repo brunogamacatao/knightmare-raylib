@@ -16,3 +16,7 @@ ios/build/
 
 .cache/
 compile_commands.json
+
+# Python tooling (tools/spritesheet_pipeline)
+__pycache__/
+*.pyc

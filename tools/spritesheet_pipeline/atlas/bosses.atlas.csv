@@ -1,0 +1,25 @@
+id,h,labels,w,x,y
+0,40,stage1 frame0,40,0,0
+1,40,stage1 frame1,40,40,0
+2,40,stage2 frame0,40,80,0
+3,40,stage3 frame0,40,200,0
+4,40,stage3 frame1,40,240,0
+5,40,stage3 frame2,40,280,0
+6,40,stage3 frame3,40,80,40
+7,40,stage3 frame4,40,120,40
+8,40,stage3 frame5,40,160,40
+9,40,stage3 frame6,40,200,40
+10,40,stage3 frame7,40,240,40
+11,16,stage7 frame0,16,0,56
+12,16,stage7 frame1,16,16,56
+13,16,stage7 frame2,16,32,56
+14,48,stage4 frame0,40,0,80
+15,48,stage5 frame0,40,120,80
+16,48,stage5 frame1,40,160,80
+17,48,stage5 frame2,40,200,80
+18,48,stage5 frame3,40,240,80
+19,48,stage6 frame0,40,0,128
+20,48,stage6 frame1,40,40,128
+21,48,stage8 frame0,48,80,128
+22,48,stage8 frame1,48,128,128
+23,16,boss eye,16,176,128

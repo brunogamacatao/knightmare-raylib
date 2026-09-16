@@ -1,0 +1,103 @@
+id,h,labels,w,x,y
+0,16,player x=0,16,0,0
+1,16,player x=16,16,16,0
+2,16,player x=32,16,32,0
+3,16,player x=48,16,48,0
+4,16,player x=64,16,64,0
+5,16,player x=80,16,80,0
+6,16,player x=96,16,96,0
+7,16,player x=112,16,112,0
+8,16,player x=128,16,128,0
+9,16,player x=144,16,144,0
+10,16,player x=160,16,160,0
+11,16,player x=176,16,176,0
+12,16,player x=192,16,192,0
+13,14,obj[13] Red thing,15,224,1
+14,13,obj[12] Yellow thing,13,209,2
+15,11,obj[2] Bat|obj[3] Bat wave|obj[14] Bat reverse,16,32,16
+16,16,obj[4] Knight,16,64,16
+17,16,obj[6] Blue demon,16,144,16
+18,16,obj[7] Skeleton,16,176,16
+19,14,obj[1] Blob,14,1,17
+20,14,obj[5] Cloud,14,113,17
+21,15,obj[8] Demon,16,240,17
+22,6,obj[39] Shadow,16,0,33
+23,12,obj[27] Shot 27,6,85,34
+24,14,obj[29] Arrow,5,133,34
+25,13,obj[32] Axe,13,177,34
+26,10,obj[24] Energy ray,10,35,35
+27,11,obj[26] Shot 26,11,66,35
+28,9,obj[28] White explosion,9,99,35
+29,11,obj[31] Shot 31,11,163,35
+30,10,obj[43] Boomerang,5,209,35
+31,6,obj[25] Bone,12,50,37
+32,5,obj[44] Shot 44,10,218,37
+33,4,obj[23] Dot bullet,4,22,38
+34,5,obj[30] Shot 30,13,145,38
+35,8,glyph@y48 x=0,8,0,48
+36,8,glyph@y48 x=8,8,8,48
+37,8,glyph@y48 x=16,8,16,48
+38,8,glyph@y48 x=24,8,24,48
+39,8,glyph@y48 x=32,8,32,48
+40,8,glyph@y48 x=40,8,40,48
+41,8,glyph@y48 x=48,8,48,48
+42,8,glyph@y48 x=56,8,56,48
+43,8,glyph@y48 x=64,8,64,48
+44,8,glyph@y48 x=72,8,72,48
+45,8,glyph@y48 x=80,8,80,48
+46,8,glyph@y48 x=88,8,88,48
+47,8,glyph@y48 x=96,8,96,48
+48,8,glyph@y48 x=104,8,104,48
+49,8,glyph@y48 x=112,8,112,48
+50,8,glyph@y48 x=120,8,120,48
+51,7,obj[36] Shield|shield offsetX=0,16,136,48
+52,7,shield offsetX=16,16,152,48
+53,7,shield offsetX=32,16,168,48
+54,16,obj[45] Sword,6,225,48
+55,6,obj[38] Big shadow,24,184,49
+56,14,obj[47] Fire arrow,8,232,49
+57,13,obj[40] Arrow (player),5,209,50
+58,10,obj[42] Triple flames,4,218,54
+59,8,glyph@y56 x=0,8,0,56
+60,8,glyph@y56 x=8,8,8,56
+61,8,glyph@y56 x=16,8,16,56
+62,8,glyph@y56 x=24,8,24,56
+63,8,glyph@y56 x=32,8,32,56
+64,8,glyph@y56 x=40,8,40,56
+65,8,glyph@y56 x=48,8,48,56
+66,8,glyph@y56 x=56,8,56,56
+67,8,glyph@y56 x=64,8,64,56
+68,8,glyph@y56 x=72,8,72,56
+69,8,glyph@y56 x=80,8,80,56
+70,8,glyph@y56 x=88,8,88,56
+71,8,glyph@y56 x=96,8,96,56
+72,8,glyph@y56 x=104,8,104,56
+73,8,glyph@y56 x=112,8,112,56
+74,8,glyph@y56 x=120,8,120,56
+75,8,glyph@y56 x=128,8,128,56
+76,8,glyph@y56 x=136,8,136,56
+77,8,glyph@y56 x=144,8,144,56
+78,8,glyph@y56 x=152,8,152,56
+79,8,glyph@y56 x=160,8,160,56
+80,8,glyph@y56 x=168,8,168,56
+81,8,glyph@y56 x=176,8,176,56
+82,8,glyph@y56 x=184,8,184,56
+83,8,glyph@y56 x=192,8,192,56
+84,8,glyph@y56 x=200,8,200,56
+85,16,obj[20] Weapon crystal,16,0,64
+86,16,obj[46] Double sword,13,226,64
+87,13,obj[41] Twin arrows,12,210,66
+88,16,obj[21] Power up crystal,16,0,80
+89,6,obj[37] Boss shadow,40,200,98
+90,16,obj[22] Blocks,16,0,104
+91,16,obj[34] Fire,16,112,104
+92,16,obj[15] Sorcerer,16,0,120
+93,16,obj[11] Ghost,16,16,120
+94,16,obj[33] Scythe,16,48,120
+95,16,obj[35] Big fire,16,112,120
+96,24,obj[51] Princess,16,0,136
+97,16,obj[9] Death ghost,15,16,136
+98,16,obj[16] Red death ghost,15,32,136
+99,16,obj[10] Zombie,16,64,136
+100,8,obj[48] Bridge,32,184,136
+101,8,obj[49] Terrain,16,240,192
